@@ -1,13 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>customReact</title>
-</head>
-<body>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <style>
+      h2 {
+        background-color: blueviolet;
+        color: ;
+      }
+      .highlight {
+        background-color: yellow;
+      }
+      p.highlight {
+        font-weight: bold;
+      }
+      h3,h2,h1{
+        background-color: red;
+      }
+      .color-box {
+      width: 100px;
+      height: 100px;
+      margin: 10px;
+      color: white;
+      display: inline-block;
+      text-align: center;
+      line-height: 100px;
+      border: 1px solid black;
+    }
+    </style>
+  </head>
+  <body>
     <div id="root"></div>
     <script src="customReact.js"></script>
+    <h1 style="display: inline">Hey!</h1>
+    <u>Yup!</u>
+    <h2>again.</h2>
+    <h1 class="highlight">This is a heading</h1>
+    <p class="highlight">This is a paragraph.</p>
+    <p>This is another paragraph.</p>
+    <h3>Heading1</h3>
+    <h2>Heading2</h2>
+    <h1>Heading3</h1>
+    <!-- <div class="color-box" style="background-color: Aqua;">Aqua</div>
+    <div class="color-box" style="background-color: Black;">Black</div>
+    <div class="color-box" style="background-color: Blue;">Blue</div>
+    <div class="color-box" style="background-color: Fuchsia;">Fuchsia</div>
+    <div class="color-box" style="background-color: Gray;">Gray</div>
+    <div class="color-box" style="background-color: Green;">Green</div>
+    <div class="color-box" style="background-color: Lime;">Lime</div>
+    <div class="color-box" style="background-color: Maroon;">Maroon</div>
+    <div class="color-box" style="background-color: Navy;">Navy</div>
+    <div class="color-box" style="background-color: Olive;">Olive</div>
+    <div class="color-box" style="background-color: Purple;">Purple</div>
+    <div class="color-box" style="background-color: Red;">Red</div>
+    <div class="color-box" style="background-color: Silver;">Silver</div>
+    <div class="color-box" style="background-color: Teal;">Teal</div>
+    <div class="color-box" style="background-color: White; color: black;">White</div>
+    <div class="color-box" style="background-color: Yellow; color: black;">Yellow</div> -->
 
-</body>
+
+    
+  <!-- Colors -->
+  <div class="color-box" style="background-color: rgb(107, 154, 196);">AliceBlue</div>
+  <div class="color-box" style="background-color: #4f4941;">AntiqueWhite</div>
+  <div class="color-box" style="background-color: hsl(180, 100%, 50%);">Aqua</div>
+  <div class="color-box" style="background-color: Aquamarine;">Aquamarine</div>
+  <div class="color-box" style="background-color: Azure;">Azure</div>
+  <div class="color-box" style="background-color: Beige;">Beige</div>
+  <div class="color-box" style="background-color: Bisque;">Bisque</div>
+  <div class="color-box" style="background-color: Black; color: white;">Black</div>
+  <div class="color-box" style="background-color: BlanchedAlmond;">BlanchedAlmond</div>
+  <div class="color-box" style="background-color: Blue;">Blue</div>
+  <div class="color-box" style="background-color: BlueViolet;">BlueViolet</div>
+  <div class="color-box" style="background-color: Brown;">Brown</div>
+  <div class="color-box" style="background-color: BurlyWood;">BurlyWood</div>
+  <div class="color-box" style="background-color: CadetBlue;">CadetBlue</div>
+  <div class="color-box" style="background-color: Chartreuse;">Chartreuse</div>
+  <div class="color-box" style="background-color: Chocolate;">Chocolate</div>
+  <div class="color-box" style="background-color: Coral;">Coral</div>
+  <div class="color-box" style="background-color: CornflowerBlue;">CornflowerBlue</div>
+  <div class="color-box" style="background-color: Cornsilk;">Cornsilk</div>
+  <div class="color-box" style="background-color: Crimson;">Crimson</div>
+  <div class="color-box" style="background-color: Cyan;">Cyan</div>
+  <div class="color-box" style="background-color: DarkBlue;">DarkBlue</div>
+  <div class="color-box" style="background-color: DarkCyan;">DarkCyan</div>
+  <div class="color-box" style="background-color: DarkGoldenrod;">DarkGoldenrod</div>
+  <div class="color-box" style="background-color: DarkGray;">DarkGray</div>
+  <div class="color-box" style="background-color: DarkGreen;">DarkGreen</div>
+  <div class="color-box" style="background-color: DarkKhaki;">DarkKhaki</div>
+  <div class="color-box" style="background-color: DarkMagenta;">DarkMagenta</div>
+  <div class="color-box" style="background-color: DarkOliveGreen;">DarkOliveGreen</div>
+  <div class="color-box" style="background-color: DarkOrange;">DarkOrange</div>
+  <div class="color-box" style="background-color: DarkOrchid;">DarkOrchid</div>
+  <div class="color-box" style="background-color: DarkRed;">DarkRed</div>
+  <div class="color-box" style="background-color: DarkSalmon;">DarkSalmon</div>
+  <div class="color-box" style="background-color: DarkSeaGreen;">DarkSeaGreen</div>
+  <div class="color-box" style="background-color: DarkSlateBlue;">DarkSlateBlue</div>
+  <div class="color-box" style="background-color: DarkSlateGray;">DarkSlateGray</div>
+  <div class="color-box" style="background-color: DarkTurquoise;">DarkTurquoise</div>
+  <div class="color-box" style="background-color: DarkViolet;">DarkViolet</div>
+  <div class="color-box" style="background-color: DeepPink;">DeepPink</div>
+  <div class="color-box" style="background-color: DeepSkyBlue;">DeepSkyBlue</div>
+  <div class="color-box" style="background-color: DimGray;">DimGray</div>
+  <div class="color-box" style="background-color: DodgerBlue;">DodgerBlue</div>
+  <div class="color-box" style="background-color: FireBrick;">FireBrick</div>
+  <div class="color-box" style="background-color: FloralWhite;">FloralWhite</div>
+  <div class="color-box" style="background-color: ForestGreen;">ForestGreen</div>
+  <div class="color-box" style="background-color: Fuchsia;">Fuchsia</div>
+  <div class="color-box" style="background-color: Gainsboro;">Gainsboro</div>
+  <div class="color-box" style="background-color: GhostWhite;">GhostWhite</div>
+  <div class="color-box" style="background-color: Gold;">Gold</div>
+  <div class="color-box" style="background-color: Goldenrod;">Goldenrod</div>
+  <div class="color-box" style="background-color: Gray;">Gray</div>
+  <div class="color-box" style="background-color: Green;">Green</div>
+  <div class="color-box" style="background-color: GreenYellow;">GreenYellow</div>
+  <div class="color-box" style="background-color: Honeydew;">Honeydew</div>
+  <div class="color-box" style="background-color: HotPink;">HotPink</div>
+  <div class="color-box" style="background-color: IndianRed;">IndianRed</div>
+  <div class="color-box" style="background-color: Indigo;">Indigo</div>
+  <div class="color-box" style="background-color: Ivory;">Ivory</div>
+  <div class="color-box" style="background-color: Khaki;">Khaki</div>
+  <div class="color-box" style="background-color: Lavender;">Lavender</div>
+  <div class="color-box" style="background-color: LavenderBlush;">LavenderBlush</div>
+  <div class="color-box" style="background-color: LawnGreen;">LawnGreen</div>
+  <div class="color-box" style="background-color: LemonChiffon;">LemonChiffon</div>
+  <div class="color-box" style="background-color: LightBlue;">LightBlue</div>
+  <div class="color-box" style="background-color: LightCoral;">LightCoral</div>
+  <div class="color-box" style="background-color: LightCyan;">LightCyan</div>
+  <div class="color-box" style="background-color: LightGoldenrodYellow;">LightGoldenrodYellow</div>
+  <div class="color-box" style="background-color: LightGreen;">LightGreen</div>
+  <div class="color-box" style="background-color: LightGray;">LightGray</div>
+  <div class="color-box" style="background-color: LightPink;">LightPink</div>
+  <div class="color-box" style="background-color: LightSalmon;">LightSalmon</div>
+  <div class="color-box" style="background-color: LightSeaGreen;">LightSeaGreen</div>
+  <div class="color-box" style="background-color: LightSkyBlue;">LightSkyBlue</div>
+  <div class="color-box" style="background-color: LightSlateGray;">LightSlateGray</div>
+  <div class="color-box" style="background-color: LightSteelBlue;">LightSteelBlue</div>
+  <div class="color-box" style="background-color: LightYellow;">LightYellow</div>
+  <div class="color-box" style="background-color: Lime;">Lime</div>
+  <div class="color-box" style="background-color: LimeGreen;">LimeGreen</div>
+  <div class="color-box" style="background-color: Linen;">Linen</div>
+  <div class="color-box" style="background-color: Magenta;">Magenta</div>
+  <div class="color-box" style="background-color: Maroon;">Maroon</div>
+  <div class="color-box" style="background-color: MediumAquamarine;">MediumAquamarine</div>
+  <div class="color-box" style="background-color: MediumBlue;">MediumBlue</div>
+  <div class="color-box" style="background-color: hsl(0, 59%, 58%);">MediumOrchid</div>
+  <div class="color-box" style="background-color: MediumPurple;">MediumPurple</div>
+  <div class="color-box" style="background-color: MediumSeaGreen;">MediumSeaGreen</div>
+  <div class="color-box" style="background-color: MediumSlateBlue;">MediumSlateBlue</div>
+  <div class="color-box" style="background-color: MediumSpringGreen;">MediumSpringGreen</div>
+  <div class="color-box" style="background-color: MediumTurquoise;">MediumTurquoise</div>
+  <div class="color-box" style="background-color: MediumVioletRed;">MediumVioletRed</div>
+  <div class="color-box" style="background-color: MidnightBlue;">MidnightBlue</div>
+  <div class="color-box" style="background-color: MintCream;">MintCream</div>
+  <div class="color-box" style="background-color: MistyRose;">MistyRose</div>
+  <div class="color-box" style="background-color: Moccasin;">Moccasin</div>
+  <div class="color-box" style="background-color: NavajoWhite;">NavajoWhite</div>
+  <div class="color-box" style="background-color: Navy;">Navy</div>
+  <div class="color-box" style="background-color: OldLace;">OldLace</div>
+  </body>
 </html>
