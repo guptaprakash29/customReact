@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #mno {
+        width: 800px;
+        background-color: antiquewhite;
+        border: 1px solid black;
+        display: grid;
+        grid-template-columns: repeat(4,200px) ;
+        grid-template-rows:repeat(4,200px) ;
+        
+      }
+      .mno1 {
+ 
+        border: 1px solid black;
+        padding: 60px;
+        margin: 5px;
+        font-weight: bold;
+        font-size: 50px;
+        text-align: center;
+      }
+      .box1{
+        background-color: blueviolet;
+       grid-row: 1/2;
+       grid-column: 1/5;
+
+      }
+
+      .box5{
+        background-color: yellow;
+        grid-row: 4/5;
+        grid-column: 1/5;
+
+
+      }
+      .box4{
+        background-color: red;
+        grid-row: 2/4;
+        grid-column: 3/5;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="mno">
+      <div class="mno1 box1">1</div>
+      <div class="mno1 box2">2</div>
+      <div class="mno1 box3">3</div>
+      <div class="mno1 box4">4</div>
+      <div class="mno1 box5">5</div>
+      <div class="mno1 box6">6</div>
+      <div class="mno1 box7">7</div>
+      <div class="mno1 box8">8</div>
+      <div class="mno1 box9">9</div>
+    </div>
+  </body>
+</html>
